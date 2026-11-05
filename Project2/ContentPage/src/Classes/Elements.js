@@ -1,0 +1,18 @@
+export let Column1 = document.querySelector(`.Column[Number="1"]`);
+export let Column2 = document.querySelector(`.Column[Number="2"]`);
+export let Box1Column1 = document.querySelector(`.Column[Number="1"] .Box[Number="1"]`);
+export let Box2Column1 = document.querySelector(`.Column[Number="1"] .Box[Number="2"]`);
+export let Box3Column1 = document.querySelector(`.Column[Number="1"] .Box[Number="3"]`);
+export let Box4Column1 = document.querySelector(`.Column[Number="1"] .Box[Number="4"]`);
+export let Box5Column1 = document.querySelector(`.Column[Number="1"] .Box[Number="5"]`);
+export let Box6Column1 = document.querySelector(`.Column[Number="1"] .Box[Number="6"]`);
+export let Box7Column1 = document.querySelector(`.Column[Number="1"] .Box[Number="7"]`);
+export let Box1Column2 = document.querySelector(`.Column[Number="2"] .Box[Number="1"]`);
+export let Box2Column2 = document.querySelector(`.Column[Number="2"] .Box[Number="2"]`);
+export let Box3Column2 = document.querySelector(`.Column[Number="2"] .Box[Number="3"]`);
+export let Box4Column2 = document.querySelector(`.Column[Number="2"] .Box[Number="4"]`);
+export let Box5Column2 = document.querySelector(`.Column[Number="2"] .Box[Number="5"]`);
+export let Box6Column2 = document.querySelector(`.Column[Number="2"] .Box[Number="6"]`);
+export let Box7Column2 = document.querySelector(`.Column[Number="2"] .Box[Number="7"]`);
+export let EnterInput = document.querySelector(".EnterInput");
+export let ResultInput = document.querySelector(".ResultInput");
