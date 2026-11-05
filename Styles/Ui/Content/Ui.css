@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'HandiCrafts';
-    src: url('../../fonts/TheYearofHandicrafts-SemiBold.otf');
+    src: url('../../../fonts/TheYearofHandicrafts-SemiBold.otf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'ToEn';
-    src: url('../../fonts/Inter_18pt-Black.ttf');
+    src: url('../../../fonts/Inter_18pt-Black.ttf');
     font-weight: normal;
 }
 
