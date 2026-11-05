@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Styles/Layout/Containers.css">
+    <link rel="stylesheet" href="./Styles/Ui/Container/ContainerDesing.css">
+    <link rel="stylesheet" href="./Styles/Ui/Content/Ui.css">
+    <link rel="stylesheet" href="./Styles/Animations/Animation.css">
+    <link rel="stylesheet" href="./Styles/Ui/Responsive/Responsive.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محول البيانات الرقمية</title>
+</head>
+<body>
+    <div class="PageContainer">
+        <div class="Container">
+            <h1 class="NamePage">محول البيانات الرقمية</h1>
+            <div class="ContainerTheTypes">
+                <div class="ContainerInputs">
+                    <div class="ContainerInput" Number="1">
+                        <h3 class="Label">الرقم المختار</h3>
+                        <input type="text" class="EnterInput" placeholder="ضع الرقم">
+                    </div>
+
+                    <div class="ContainerInput" Number="2">
+                        <h3 class="Label">النتيجة</h3>
+                        <input type="text" class="ResultInput" placeholder="النتيجة" readonly>
+                    </div>
+                </div>
+
+                <div class="SelectionContainer">
+                    <div class="Column" Number="1" BoxSelected="4">
+                        <div class="Box" Number="1">
+                            <h3 class="Type">Bit</h3>
+                        </div>
+
+                        <div class="Box" Number="2">
+                            <h3 class="Type">B</h3>
+                        </div>
+
+                        <div class="Box" Number="3">
+                            <h3 class="Type">KB</h3>
+                        </div>
+
+                        <div class="Box" Number="4">
+                            <h3 class="Type">MB</h3>
+                        </div>
+
+                        <div class="Box" Number="5">
+                            <h3 class="Type">GB</h3>
+                        </div>
+
+                        <div class="Box" Number="6">
+                            <h3 class="Type">TB</h3>
+                        </div>
+
+                        <div class="Box" Number="7">
+                            <h3 class="Type">PB</h3>
+                        </div>
+                    </div>
+                    <img src="./Images/ArrowTranslationWhite.png" class="Arrow">
+
+                    <div class="Column" Number="2" BoxSelected="1">
+                        <div class="Box" Number="1">
+                            <h3 class="Type">Bit</h3>
+                        </div>
+
+                        <div class="Box" Number="2">
+                            <h3 class="Type">B</h3>
+                        </div>
+
+                        <div class="Box" Number="3">
+                            <h3 class="Type">KB</h3>
+                        </div>
+
+                        <div class="Box" Number="4">
+                            <h3 class="Type">MB</h3>
+                        </div>
+
+                        <div class="Box" Number="5">
+                            <h3 class="Type">GB</h3>
+                        </div>
+
+                        <div class="Box" Number="6">
+                            <h3 class="Type">TB</h3>
+                        </div>
+
+                        <div class="Box" Number="7">
+                            <h3 class="Type">PB</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./src/SelectionSystem/ClickSystem.js"></script>
+    <script type="module" src="./src/TransformSystem/TransformDataScript.js"></script>
+</body>
+</html>

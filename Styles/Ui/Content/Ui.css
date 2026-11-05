@@ -1,0 +1,120 @@
+.NamePage {
+    color: rgb(236, 243, 240);
+
+    font-family: HandiCrafts, ToEn;
+    font-size: 8cqw;
+
+    padding: 0;
+    margin: 0;
+}
+
+.Label {
+    color: rgb(17, 218, 134);
+
+    font-family: HandiCrafts, ToEn;
+    font-size: 6cqw;
+
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+
+    background-color: rgb(21, 237, 147);
+
+    width: 24cqw;
+    height: 9cqw;
+
+    border-radius: 3cqw;
+
+    color: rgb(225, 237, 232);
+    padding: 0 2.5cqw 0 1.7cqw;
+
+    direction: rtl;
+    text-align: right;
+
+    font-family: ToEn;
+    font-size: 3cqw;
+}
+
+input::placeholder {
+    color: rgb(21, 185, 117);
+
+    font-family: HandiCrafts, ToEn;
+    font-size: 3cqw;
+}
+
+.Column {
+    background-color: rgb(225, 237, 232);
+
+    width: 16cqw;
+    height: 80%;
+
+    border-radius: 5.6cqw;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 1.7cqw;
+
+    overflow-x: hidden;
+}
+
+.Column::-webkit-scrollbar {
+    width: 1.7cqw;
+    background: #1e1e1e00;
+}
+
+.Column::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.Column::-webkit-scrollbar-thumb {
+    background: rgb(15, 205, 126);
+    border-radius: 4cqw;
+}
+
+.Box {
+    background-color: rgb(21, 237, 147);
+
+    width: 80%;
+    height: 8cqw;
+
+    border-radius: 3.2cqw;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.Box[Number="1"] {
+    margin-top: 2.4cqw;
+}
+
+.Box[Number="7"] {
+    margin-bottom: 2.4cqw;
+}
+
+.Type {
+    color: rgb(236, 243, 240);
+
+    font-family: HandiCrafts, ToEn;
+    font-size: 5.1cqw;
+
+    padding: 0;
+    margin: 0;
+}
+
+.Arrow {
+    width: 24cqw;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+}
