@@ -1,13 +1,11 @@
 @font-face {
-    font-family: HandiCrafts;
-    src: url('../../fonts/TheYearofHandicrafts-SemiBold.otf');
-    font-weight: 0;
+    font-family: 'HandiCrafts';
+    src: url('TheYearofHandicrafts-SemiBold.otf');
 }
 
 @font-face {
-    font-family: ToEn;
-    src: url('../../fonts/Inter_18pt-Black.ttf');
-    font-weight: 0;
+    font-family: 'ToEn';
+    src: url('Inter_18pt-Black.ttf');
 }
 
 .NamePage {
