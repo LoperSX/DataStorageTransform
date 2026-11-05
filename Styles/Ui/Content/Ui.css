@@ -1,3 +1,15 @@
+@font-face {
+    font-family: HandiCrafts;
+    src: url('../../fonts/TheYearofHandicrafts-SemiBold.otf');
+    font-weight: 0;
+}
+
+@font-face {
+    font-family: ToEn;
+    src: url('../../fonts/Inter_18pt-Black.ttf');
+    font-weight: 0;
+}
+
 .NamePage {
     color: rgb(236, 243, 240);
 
